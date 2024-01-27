@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-section{
+    height: 100dvh;
+    display: grid;
+}
+.header-container{
+    width: 80dvh;
+    /* border: black solid 2px; */
+    align-self: center;
+    justify-self: center;
+
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+.header-container h1{
+    background-color: red;
+    justify-self: center;
+    padding: 2rem;
+    font-size: clamp(22px, 5px + 1.6vw , 36px);
+}
+.header-cta-container{
+    display: grid;
+    gap: 1.5rem;
+    justify-items: center;
+    margin-bottom: 6rem;
+}
+.header-image{
+    grid-column: 2/-1;
+    grid-row: 1/-1;
+    height: 70dvh;
+}
+.header-image *{
+    height: 70dvh;
+}
+
+
+
+
+.help-section{
+    height: 100dvh;
+    display: grid;
+}
+.how-container{
+    background-color: beige;
+    border: solid black 3px;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 80dvh;
+    height: fit-content;
+    align-self: center;
+    justify-self: center;
+
+    display: grid;
+    gap: 2rem;
+
+}
+.how-paragraph-1{
+    text-align: right;
+    width: 60%;
+    border: solid 2px black;
+    border-radius: 4px;
+    justify-self: right;
+    padding: 0.6rem;
+}
+.how-paragraph-2{
+    width: 60%;
+    border: solid 2px rgb(241, 151, 32);
+    border-radius: 4px;
+    padding: 0.6rem;
+}
+
+.prismic-container{
+    display: grid;
+    grid-template-columns: auto auto;    
+    align-items: center;
+    gap: 1rem;
+}
+.gatsby-container{
+    display: grid;
+    grid-template-columns: auto auto;    
+    align-items: center;
+    gap: 1rem;
+}
+.icon{
+    width: 100px;
+}
+
+
+.booking-section{
+    height: 100dvh;
+}
+
+.sm-icon{
+    color: black;
+}
