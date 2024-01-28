@@ -194,7 +194,7 @@ export const NavWrapperMobile = styled.nav`
         left: 0;
         width: 100%;
         height: 3.6px;
-        background-color: white;
+        background-color: black;
         border-radius: 8px;
     }
 
