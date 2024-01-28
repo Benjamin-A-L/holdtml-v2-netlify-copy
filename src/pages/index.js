@@ -18,7 +18,7 @@ export const LogoStyled = styled.div`
     padding: 8px;
     justify-self: center;
 `
-
+ 
 export const Logo = () => {
   return <LogoStyled><b>&lt;H</b><span style={{ color: 'rgb(241, 151, 32)' }}>old</span><b>TML/&gt;</b></LogoStyled>
 }
